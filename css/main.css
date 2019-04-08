@@ -22,7 +22,7 @@ body,html{
 .heading3{
     font-family: sans-serif;
     font-size: 40px;
-    color: black;
+    color: whitesmoke;
     text-align: left;
     font-weight: bolder;
 }
@@ -30,7 +30,7 @@ body,html{
 .content{
     font-family: sans-serif;
     font-size: 20px;
-    color: dimgrey;
+    color: whitesmoke;
     text-align: justify;
 }
 
@@ -46,30 +46,62 @@ body,html{
 }
 
 .section2{
+    background: url(../img/redblood.png);
+    width: 100%;
+    height: 100%;
     padding: 100px 50px;
     text-align: center;
-    background: white;
+   
 }
 .col-kiri{
-    background: #fff;
+    
 }
 
 .col-kanan{
-    background: white; 
+    
     text-align: center;
 }
 
 .section3{
+    background: url(../img/redblood.png);
     padding: 100px 50px;
-    text-align: center;
-    background: WHITE;    
+    text-align: center;    
+        
 }
 .col-kiri2{
     font-family: sans-serif;
+    color: whitesmoke
 }
 .col-tengah{
     font-family: sans-serif;
+    color: whitesmoke
+
 }
 .col-kanan2{
     font-family: sans-serif;
+    color: whitesmoke
+
 }
+ody{
+    margin: 0;
+    font: normal 12px verdana, tahoma;
+}
+nav{
+    display: block;
+    background-color: #000000;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul > li{ display: inline; }
+nav ul > li > a{
+    display: inline-block;
+    padding: 8px 12px;
+    border-right: #4072B4;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+nav ul > li > a:hover{ background-color: #000000; }
